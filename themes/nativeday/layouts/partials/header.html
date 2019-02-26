@@ -1,0 +1,47 @@
+ <!-- TITLE CARD -->
+
+ <div class="title-card">
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-md main-nav">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPrimary" aria-controls="navbarPrimary" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                  </button>
+        <div class="collapse navbar-collapse" id="navbarPrimary">
+            <ul class="navbar-nav">
+                {{ range .Site.Menus.main }}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+                    </li>
+                {{ end }}
+            </ul>
+        </div>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+                {{ if .IsTranslated }}
+                    {{ range .Translations }}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+                        </li>
+                    {{ end }}
+                {{ end }}
+            </ul>
+        </div>
+    </nav>
+
+
+    <div><img class="title-image" src="/images/Logo/Cloud-Native-Day-2019_Logo_Black.svg" alt="Montreal Cloud Native day June 11th 2019"></div>
+    <div><img class="beer-image" src="/images/Icons/CND_Beer.svg" alt=""></div>
+    <div><img class="bracket-image" src="/images/Icons/CND_Bracket.svg" alt=""></div>
+    <div><img class="bubble-image" src="/images/Icons/CND_Bubble.svg" alt=""></div>
+    <div><img class="scloud-image" src="/images/Icons/CND_Cloud.svg" alt=""></div>
+    <div><img class="light-image" src="/images/Icons/CND_Lightbulb.svg" alt=""></div>
+    <div><img class="mobile-image" src="/images/Icons/CND_Mobile.svg" alt=""></div>
+    <div><img class="pizza-image" src="/images/Icons/CND_Pizza.svg" alt=""></div>
+    <div><img class="lcloud-image" src="/images/Icons/CND_Cloud.svg" alt=""></div>
+
+
+    <div class="register-button"><a href="{{T "register_url" }}">{{ T "register" }}</a></div>
+
+</div>

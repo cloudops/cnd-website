@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homepage on Cloud Native Day</title>
+    <link>/fr/</link>
+    <description>Recent content in Homepage on Cloud Native Day</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/fr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Program</title>
+      <link>/fr/program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/program/</guid>
+      <description> Les conférences seront sélectionnées par un comité d&#39;évangélistes cloud native ayant participé activement dans leur communauté locale et qui ont des années d&#39;expérience dans le domaine. Quatre des huit conférences choisies seront présentées par des experts locaux. Cet événement ponctuel sera bilingue et nous ferons de notre mieux pour choisir un nombre égal de conférences en français et en anglais.  Pour plus d&#39;information, veuillez nous contacter à info@cloudnativeday.ca  Horaire détaillé à venir prochainement  </description>
+    </item>
+    
+  </channel>
+</rss>

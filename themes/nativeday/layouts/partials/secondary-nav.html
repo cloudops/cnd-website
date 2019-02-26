@@ -1,0 +1,10 @@
+<!-- SECONDARY NAVBAR -->
+
+
+<nav class="navbar secondary-nav navbar-expand-lg">
+    {{ range .Site.Menus.secondary }}
+        <div class="navbar-collapse navbar-nav mr-auto">
+            <a href="{{ .URL }}">{{ .Name }}</a>
+        </div>
+    {{ end }}
+</nav>

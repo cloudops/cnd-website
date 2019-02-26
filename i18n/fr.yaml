@@ -1,0 +1,6 @@
+- id: register
+  translation: Inscription
+- id: register_url
+  translation: http://google.com/fr
+- id: register_today
+  translation: Inscription Maintenant

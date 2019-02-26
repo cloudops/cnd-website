@@ -1,0 +1,128 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Cloud Native Day"
+theme = ["nativeday"]
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubDir = true
+
+[languages]
+    [languages.en]
+        languageName = "English"
+        weight = 10
+        contentDir = "content/english"
+
+        [[languages.en.menu.main]]
+            identifier = "about"
+            name = "About"
+            url = "/en/#about"
+            weight = 20
+
+        [[languages.en.menu.main]]
+            identifier = "location"
+            name = "Location"
+            url = "/en/#location"
+            weight = 30
+
+        [[languages.en.menu.main]]
+            identifier = "sponsors"
+            name = "Sponsors"
+            url = "/en/#sponsors"
+            weight = 40
+
+        [[languages.en.menu.main]]
+            identifier = "program"
+            name = "Program"
+            url = "/en/program"
+            weight = 50
+
+        [[languages.en.menu.main]]
+            identifier = "registration"
+            name = "Registration"
+            url = "/en/"
+            weight = 60
+        
+        [[languages.en.menu.main]]
+            identifier = "contact-us"
+            name = "Contact us"
+            url = "/en/"
+            weight = 70
+
+
+        [[languages.en.menu.secondary]]
+            identifier = "early-bird"
+            name = "Early Bird Tickets"
+            url = "/en/"
+            weight = 10
+
+        [[languages.en.menu.secondary]]
+            identifier = "call-for-proposals"
+            name = "Call for Proposals"
+            url = "/en/program"
+            weight = 20
+
+        [[languages.en.menu.secondary]]
+            identifier = "become-a-sponsor"
+            name = "Become a Sponsor"
+            url = "/en/"
+            weight = 30
+
+    [languages.fr]
+        languageName = "Français"
+        weight = 10
+        contentDir = "content/french"
+
+        [[languages.fr.menu.main]]
+            identifier = "about"
+            name = "À propos"
+            url = "/fr/a-propos"
+            weight = 20
+
+        [[languages.fr.menu.main]]
+            identifier = "location"
+            name = "Lieu"
+            url = "/fr/lieu"
+            weight = 30
+
+        [[languages.fr.menu.main]]
+            identifier = "sponsors"
+            name = "Commanditaires"
+            url = "/fr/commanditaires"
+            weight = 40
+
+        [[languages.fr.menu.main]]
+            identifier = "program"
+            name = "Programmation"
+            url = "/fr/programmation"
+            weight = 50
+
+        [[languages.fr.menu.main]]
+            identifier = "registration"
+            name = "Inscription"
+            url = "/fr/inscription"
+            weight = 60
+
+        [[languages.fr.menu.main]]
+            identifier = "contact-us"
+            name = "Nous joindre"
+            url = "/fr/nous-joindre"
+            weight = 70
+
+
+        [[languages.fr.menu.secondary]]
+            identifier = "early-bird"
+            name = "Billets Pré-inscription"
+            url = "/fr/"
+            weight = 10
+
+        [[languages.fr.menu.secondary]]
+            identifier = "call-for-proposals"
+            name = "Appels à propositions"
+            url = "/fr/"
+            weight = 20
+
+        [[languages.fr.menu.secondary]]
+            identifier = "become-a-sponsor"
+            name = "Devenir un Commanditaire"
+            url = "/fr/"
+            weight = 30
