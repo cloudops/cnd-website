@@ -3,7 +3,7 @@
 - id: register_url
   translation: http://google.com/fr
 - id: register_today
-  translation: Inscription Maintenant
+  translation: Inscrivez-vous dès aujourd'hui
 - id: header_image
   translation: /images/Logo/Cloud-Native-Day-FR.svg
 - id: footer_cloudops
