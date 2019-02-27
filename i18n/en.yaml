@@ -4,3 +4,11 @@
   translation: http://google.com
 - id: register_today
   translation: Register Today
+- id: header_image
+  translation: /images/Logo/Cloud-Native-Day-2019_Logo_Black.svg
+- id: footer_cloudops
+  translation: Cloud Native Day 2019 will be organized by
+- id: footer_presentation
+  translation: CloudOps is a cloud solutions company that focuses on open source, cloud platforms, networking, and DevOps.
+- id: footer_copyright
+  translation: 2019 Cloud Native Day

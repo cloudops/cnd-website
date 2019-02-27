@@ -4,3 +4,11 @@
   translation: http://google.com/fr
 - id: register_today
   translation: Inscription Maintenant
+- id: header_image
+  translation: /images/Logo/Cloud-Native-Day-FR.svg
+- id: footer_cloudops
+  translation: La journée Cloud Native de 2019 sera organisée par
+- id: footer_presentation
+  translation: CloudOps est une entreprise de solutions infonuagiques axée sur les solutions de source libre, les plateformes infonuagiques, le réseautage et les DevOps. 
+- id: footer_copyright
+  translation: 2019 Journée Cloud Native

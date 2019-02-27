@@ -5,9 +5,9 @@
     <!-- NAVBAR -->
 
     <nav class="navbar navbar-expand-md main-nav">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPrimary" aria-controls="navbarPrimary" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-                  </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPrimary" aria-controls="navbarPrimary" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarPrimary">
             <ul class="navbar-nav">
                 {{ range .Site.Menus.main }}
@@ -31,7 +31,7 @@
     </nav>
 
 
-    <div><img class="title-image" src="/images/Logo/Cloud-Native-Day-2019_Logo_Black.svg" alt="Montreal Cloud Native day June 11th 2019"></div>
+    <div><img class="title-image" src="{{ T "header_image" }}" alt="Montreal Cloud Native day June 11th 2019"></div>
     <div><img class="beer-image" src="/images/Icons/CND_Beer.svg" alt=""></div>
     <div><img class="bracket-image" src="/images/Icons/CND_Bracket.svg" alt=""></div>
     <div><img class="bubble-image" src="/images/Icons/CND_Bubble.svg" alt=""></div>

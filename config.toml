@@ -45,7 +45,7 @@ defaultContentLanguageInSubDir = true
         [[languages.en.menu.main]]
             identifier = "contact-us"
             name = "Contact us"
-            url = "/en/"
+            url = "mailto:info@cloudnativeday.ca"
             weight = 70
 
 
@@ -58,13 +58,13 @@ defaultContentLanguageInSubDir = true
         [[languages.en.menu.secondary]]
             identifier = "call-for-proposals"
             name = "Call for Proposals"
-            url = "/en/program"
+            url = "mailto:info@cloudnativeday.ca"
             weight = 20
 
         [[languages.en.menu.secondary]]
             identifier = "become-a-sponsor"
             name = "Become a Sponsor"
-            url = "/en/"
+            url = "/en/program"
             weight = 30
 
     [languages.fr]
@@ -75,19 +75,19 @@ defaultContentLanguageInSubDir = true
         [[languages.fr.menu.main]]
             identifier = "about"
             name = "À propos"
-            url = "/fr/a-propos"
+            url = "/fr/#about"
             weight = 20
 
         [[languages.fr.menu.main]]
             identifier = "location"
             name = "Lieu"
-            url = "/fr/lieu"
+            url = "/fr/#location"
             weight = 30
 
         [[languages.fr.menu.main]]
             identifier = "sponsors"
             name = "Commanditaires"
-            url = "/fr/commanditaires"
+            url = "/fr/#sponsors"
             weight = 40
 
         [[languages.fr.menu.main]]
@@ -105,7 +105,7 @@ defaultContentLanguageInSubDir = true
         [[languages.fr.menu.main]]
             identifier = "contact-us"
             name = "Nous joindre"
-            url = "/fr/nous-joindre"
+            url = "mailto:info@cloudnativeday.ca"
             weight = 70
 
 
@@ -118,11 +118,11 @@ defaultContentLanguageInSubDir = true
         [[languages.fr.menu.secondary]]
             identifier = "call-for-proposals"
             name = "Appels à propositions"
-            url = "/fr/"
+            url = "mailto:info@cloudnativeday.ca"
             weight = 20
 
         [[languages.fr.menu.secondary]]
             identifier = "become-a-sponsor"
             name = "Devenir un Commanditaire"
-            url = "/fr/"
+            url = "/fr/programmation"
             weight = 30
