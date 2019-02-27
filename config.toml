@@ -75,19 +75,19 @@ defaultContentLanguageInSubDir = true
         [[languages.fr.menu.main]]
             identifier = "about"
             name = "À propos"
-            url = "/fr/#about"
+            url = "/fr/#a-propos"
             weight = 20
 
         [[languages.fr.menu.main]]
             identifier = "location"
             name = "Lieu"
-            url = "/fr/#location"
+            url = "/fr/#lieu"
             weight = 30
 
         [[languages.fr.menu.main]]
             identifier = "sponsors"
             name = "Commanditaires"
-            url = "/fr/#sponsors"
+            url = "/fr/#commanditaires"
             weight = 40
 
         [[languages.fr.menu.main]]
