@@ -39,26 +39,26 @@ defaultContentLanguageInSubDir = true
         [[languages.en.menu.main]]
             identifier = "registration"
             name = "Registration"
-            url = "/en/"
+            url = "https://www.eventbrite.ca/e/journee-cloud-native-montreal-cloud-native-day-montreal-tickets-57543465053"
             weight = 60
         
         [[languages.en.menu.main]]
             identifier = "contact-us"
             name = "Contact us"
-            url = "mailto:info@cloudnativeday.ca"
+            url = "mailto:ctrang@cloudops.com"
             weight = 70
 
 
         [[languages.en.menu.secondary]]
             identifier = "early-bird"
             name = "Early Bird Tickets"
-            url = "/en/"
+            url = "https://www.eventbrite.ca/e/journee-cloud-native-montreal-cloud-native-day-montreal-tickets-57543465053"
             weight = 10
 
         [[languages.en.menu.secondary]]
             identifier = "call-for-proposals"
             name = "Call for Proposals"
-            url = "mailto:info@cloudnativeday.ca"
+            url = "mailto:ctrang@cloudops.com"
             weight = 20
 
         [[languages.en.menu.secondary]]
@@ -99,26 +99,26 @@ defaultContentLanguageInSubDir = true
         [[languages.fr.menu.main]]
             identifier = "registration"
             name = "Inscription"
-            url = "/fr/inscription"
+            url = "https://www.eventbrite.ca/e/journee-cloud-native-montreal-cloud-native-day-montreal-tickets-57543465053"
             weight = 60
 
         [[languages.fr.menu.main]]
             identifier = "contact-us"
             name = "Nous joindre"
-            url = "mailto:info@cloudnativeday.ca"
+            url = "mailto:ctrang@cloudops.com"
             weight = 70
 
 
         [[languages.fr.menu.secondary]]
             identifier = "early-bird"
             name = "Billets Pré-inscription"
-            url = "/fr/"
+            url = "https://www.eventbrite.ca/e/journee-cloud-native-montreal-cloud-native-day-montreal-tickets-57543465053"
             weight = 10
 
         [[languages.fr.menu.secondary]]
             identifier = "call-for-proposals"
             name = "Appels à propositions"
-            url = "mailto:info@cloudnativeday.ca"
+            url = "mailto:ctrang@cloudops.com"
             weight = 20
 
         [[languages.fr.menu.secondary]]

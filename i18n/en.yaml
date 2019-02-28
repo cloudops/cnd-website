@@ -1,7 +1,7 @@
 - id: register
   translation: Register
 - id: register_url
-  translation: http://google.com
+  translation: https://www.eventbrite.ca/e/journee-cloud-native-montreal-cloud-native-day-montreal-tickets-57543465053
 - id: register_today
   translation: Register Today
 - id: header_image

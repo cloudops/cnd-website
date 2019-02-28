@@ -32,7 +32,7 @@
   </url>
   
   <url>
-    <loc>/fr/program/</loc>
+    <loc>/fr/programmation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -41,7 +41,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/program/"
+                href="/fr/programmation/"
                 />
   </url>
   
