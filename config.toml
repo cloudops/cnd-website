@@ -27,7 +27,7 @@ defaultContentLanguageInSubDir = true
         [[languages.en.menu.main]]
             identifier = "sponsors"
             name = "Sponsors"
-            url = "/en/#sponsors"
+            url = "/en/sponsors"
             weight = 40
 
         [[languages.en.menu.main]]
@@ -64,7 +64,7 @@ defaultContentLanguageInSubDir = true
         [[languages.en.menu.secondary]]
             identifier = "become-a-sponsor"
             name = "Sponsors"
-            url = "/en/program"
+            url = "/en/sponsors"
             weight = 30
 
     [languages.fr]
@@ -87,7 +87,7 @@ defaultContentLanguageInSubDir = true
         [[languages.fr.menu.main]]
             identifier = "sponsors"
             name = "Commanditaires"
-            url = "/fr/#commanditaires"
+            url = "/fr/commanditaires"
             weight = 40
 
         [[languages.fr.menu.main]]
@@ -124,5 +124,5 @@ defaultContentLanguageInSubDir = true
         [[languages.fr.menu.secondary]]
             identifier = "become-a-sponsor"
             name = "Commanditaires"
-            url = "/fr/programmation"
+            url = "/fr/commanditaires"
             weight = 30

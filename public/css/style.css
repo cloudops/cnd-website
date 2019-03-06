@@ -588,13 +588,16 @@ body .footer {
     padding-bottom: 20px;
 }
 
-.container.program-page {
+
+/* SECONDARY PAGES*/
+
+.container.secondary-page {
     padding: 100px 0;
 
 }
 
-.container.program-page p,
-.container.program-page a {
+.container.secondary-page p,
+.container.secondary-page a {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 16px;

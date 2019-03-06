@@ -19,5 +19,14 @@
       <description>Les conférences seront sélectionnées par un comité d&#39;évangélistes cloud native ayant participé activement dans leur communauté locale et qui ont des années d&#39;expérience dans le domaine. Quatre des huit conférences choisies seront présentées par des experts locaux. Cet événement ponctuel sera bilingue et nous ferons de notre mieux pour choisir un nombre égal de conférences en français et en anglais.  Pour soumettre votre programme de conférence, veuillez envoyer vos propositions à info@cloudnativeday.</description>
     </item>
     
+    <item>
+      <title>Sponsors</title>
+      <link>/fr/commanditaires/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/commanditaires/</guid>
+      <description>Les organisateurs de la journée Cloud Native 2019 voudraient remercier ses commanditaires sans lesquels cet événement ne serait pas possible.  En commanditant la journée Cloud Native, vous aurez la chance de discuter avec des développeurs, des chefs de file du domaine technique et des décideurs provenant d&#39;entreprises de différents secteurs et de toutes les tailles. Que vos objectifs soient de recruter de jeunes talents, d&#39;ouvrir de nouveaux marchés ou de communiquer avec votre clientèle existante, cet événement sera l&#39;endroit idéal pour converser avec des experts et des chefs de file en innovation technologique.</description>
+    </item>
+    
   </channel>
 </rss>

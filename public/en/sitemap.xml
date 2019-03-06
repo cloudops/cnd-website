@@ -46,6 +46,20 @@
   </url>
   
   <url>
+    <loc>/en/sponsors/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/commanditaires/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/sponsors/"
+                />
+  </url>
+  
+  <url>
     <loc>/en/tags/</loc>
     <priority>0</priority>
     <xhtml:link
