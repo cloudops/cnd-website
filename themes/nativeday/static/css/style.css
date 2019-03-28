@@ -511,10 +511,21 @@ body .main-content {
     width: 165px;
     height: 85px;
     margin-left: 15px;
+    margin-bottom: 100px;
     display: inline-block;
     text-align: center;
     box-shadow: 0 0 10px lightgrey;
     border: none;
+}
+
+.sponsors-card .hackru-image {
+    width: 120px;
+    height: auto;
+}
+
+.sponsors-card .instana-image {
+    width: 80px;
+    height: auto;
 }
 
 .sponsors-card .aws-image {
