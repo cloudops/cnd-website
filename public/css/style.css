@@ -518,7 +518,7 @@ body .main-content {
     border: none;
 }
 
-.sponsors-card .hackru-image {
+.sponsors-card .github-image {
     width: 120px;
     height: auto;
 }
@@ -528,32 +528,10 @@ body .main-content {
     height: auto;
 }
 
-.sponsors-card .aws-image {
+.sponsors-card .aqua-image {
     width: 120px;
     height: auto;
 }
-
-.sponsors-card .docker-image {
-    width: 120px;
-    height: auto;
-}
-
-.sponsors-card .hashicorp-image {
-    width: 70px;
-    height: auto;
-}
-
-.sponsors-card .kubernetes-image {
-    width: 75px;
-    height: auto;
-}
-
-.sponsors-card .googlecloud-image {
-    width: 80px;
-    height: auto;
-}
-
-
 
 /* SPONSORS CARD MOBILE*/
 
@@ -562,10 +540,16 @@ body .main-content {
     .sponsors-button-row {
         text-align: center;
     }
-    .sponsors-card button {
-        width: 50%;
-        height: 200px;
-    } 
+
+    .sponsors-card .github-image {
+        width: 120px;
+        height: auto;
+    }
+    
+    .sponsors-card .instana-image {
+        width: 80px;
+        height: auto;
+    }
 }
 
 
