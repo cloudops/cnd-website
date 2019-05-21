@@ -478,6 +478,9 @@ body .main-content {
     display: inline-block;
 }
 
+.program-card .learn-more {
+    padding-left: 15px;
+}
 .program-card .learn-more a:link,
 .program-card .learn-more a:visited {
     font-family: adelle-condensed, serif;
@@ -524,12 +527,52 @@ body .main-content {
 }
 
 .sponsors-card .instana-image {
-    width: 80px;
+    width: 155px;
     height: auto;
 }
 
 .sponsors-card .aqua-image {
     width: 120px;
+    height: auto;
+}
+
+.sponsors-card .elastic-image {
+    width: 120px;
+    height: auto;
+}
+
+.sponsors-card .redhat-image {
+    width: 120px;
+    height: auto;
+}
+
+.sponsors-card .containersolutions-image {
+    width: 150px;
+    height: auto;
+}
+
+.sponsors-card .hashicorp-image {
+    width: 140px;
+    height: auto;
+}
+
+.sponsors-card .cloudops-image {
+    width: 140px;
+    height: auto;
+}
+
+.sponsors-card .cca-image {
+    width: 150px;
+    height: auto;
+}
+
+.sponsors-card .onespan-image {
+    width: 150px !important;
+    height: auto;
+}
+
+.sponsors-card .cloudbees-image {
+    width: 130px;
     height: auto;
 }
 
@@ -550,6 +593,12 @@ body .main-content {
         width: 80px;
         height: auto;
     }
+}
+
+/* INFORMATION CARD*/
+
+.information-card  .sign-up-form {
+    margin-left: 15px;
 }
 
 

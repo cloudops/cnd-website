@@ -478,6 +478,9 @@ body .main-content {
     display: inline-block;
 }
 
+.program-card .learn-more {
+    padding-left: 15px;
+}
 .program-card .learn-more a:link,
 .program-card .learn-more a:visited {
     font-family: adelle-condensed, serif;
@@ -524,7 +527,7 @@ body .main-content {
 }
 
 .sponsors-card .instana-image {
-    width: 80px;
+    width: 155px;
     height: auto;
 }
 
@@ -533,6 +536,40 @@ body .main-content {
     height: auto;
 }
 
+.sponsors-card .elastic-image {
+    width: 120px;
+    height: auto;
+}
+
+.sponsors-card .redhat-image {
+    width: 120px;
+    height: auto;
+}
+
+.sponsors-card .containersolutions-image {
+    width: 150px;
+    height: auto;
+}
+
+.sponsors-card .hashicorp-image {
+    width: 140px;
+    height: auto;
+}
+
+.sponsors-card .cloudops-image {
+    width: 140px;
+    height: auto;
+}
+
+.sponsors-card .cca-image {
+    width: 150px;
+    height: auto;
+}
+
+.sponsors-card .onespan-image {
+    width: 150px !important;
+    height: auto;
+}
 /* SPONSORS CARD MOBILE*/
 
 
@@ -550,6 +587,12 @@ body .main-content {
         width: 80px;
         height: auto;
     }
+}
+
+/* INFORMATION CARD*/
+
+.information-card  .sign-up-form {
+    margin-left: 15px;
 }
 
 
@@ -597,4 +640,81 @@ body .footer {
     font-weight: 300;
     font-size: 16px;
     padding-bottom: 20px;
+}
+
+/* PROGRAM PAGE*/
+
+.program-page .main-title {
+    max-width: 100%;
+    padding-bottom: 50px;
+    border-bottom: dotted 2px #6BD8D2;
+    margin-bottom: 50px;
+}
+.program-page .speaker {
+    max-width: 100%;
+    padding-bottom: 50px;
+    border-bottom: dotted 2px #6BD8D2;
+    margin-bottom: 50px;
+}
+
+.program-page .speaker-picture {
+    max-width: 100%;
+}
+
+.program-page .speaker-description {
+    padding-left: 40px;
+}
+
+.program-page .speaker-description .conference-description p {
+    padding-bottom: 0;
+}
+
+.program-page .speaker-description .conference-description ul {
+    list-style-type: square;
+}
+
+.program-page .speaker-description .conference-description li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.program-page .speaker-name {
+    padding: 0;
+    display: inline-block;
+}
+.program-page .speaker-title {
+    padding: 0;
+    display: inline-block;
+}
+
+.program-page .speaker-social i.fab {
+    color: #60BFBA;
+    font-size: 30px;
+    padding-right: 5px;
+}
+.program-page .conference-name {
+    padding: 30px 0 0 0;
+}
+
+/* PROGRAM PAGEMOBILE*/
+
+
+@media (max-width: 768px) {
+    .program-page .speaker-description {
+        padding-left: 0;
+    }
+
+    .program-page .picture-container {
+        padding: 0;
+    }
+
+    .program-page .speaker {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .program-page .speaker-description .conference-description ul {
+        list-style-type: none;
+    }
 }

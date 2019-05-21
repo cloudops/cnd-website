@@ -14,17 +14,15 @@
     
 
     
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="preload stylesheet" as="style" type="text/css" href="/css/style.css">
     
-    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon no-follow" href="/images/favicon.ico" type="image/x-icon">
     
-    <link rel="stylesheet" href="https://use.typekit.net/qkk4xfh.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-        crossorigin="anonymous">
-
+    <link rel="stylesheet preload no-follow" as="font" href="https://use.typekit.net/qkk4xfh.css">
+    <link rel="stylesheet preload no-follow" as="font" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+    <link rel="stylesheet preload no-follow" as="style" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet preload no-follow" as="font" href="https://use.fontawesome.com/releases/v5.8.2/css/brands.css" integrity="sha384-i2PyM6FMpVnxjRPi0KW/xIS7hkeSznkllv+Hx/MtYDaHA5VcF0yL3KVlvzp8bWjQ" crossorigin="anonymous">
+    <link rel="stylesheet preload no-follow" as="font" href="https://use.fontawesome.com/releases/v5.8.2/css/fontawesome.css" integrity="sha384-sri+NftO+0hcisDKgr287Y/1LVnInHJ1l+XC7+FOabmTTIK0HnE2ID+xxvJ21c5J" crossorigin="anonymous">
     
         <title>Cloud Native Day</title>
     
@@ -108,7 +106,7 @@
         </div>
     
         <div class="navbar-collapse navbar-nav mr-auto">
-            <a href="/fr/programmation">Appels à propositions</a>
+            <a href="/fr/programmation">Conférenciers</a>
         </div>
     
         <div class="navbar-collapse navbar-nav mr-auto">
@@ -120,16 +118,16 @@
 
 <!-- ABOUT CARD -->
 
-<div class="container about-card content-card" id="a-propos">   
+<div class="container about-card content-card" id="a-propos">
     <div class="row">
         <div class="col-sm-12">
-            <h2> 
+            <h2>
                 La journée <span class="highlighted-text">Cloud Native de 2019 </span>
-                Cloud Native de 2019 sera un événement d'un jour qui 
-                rassemblera la dynamique communauté locale de fervents de 
-                technologie. Les participants apprendront comment s'impliquer 
-                davantage dans le paysage des déploiements infonuagiques natifs 
-                en croissance rapide. 
+                Cloud Native de 2019 sera un événement d'un jour qui
+                rassemblera la dynamique communauté locale de fervents de
+                technologie. Les participants apprendront comment s'impliquer
+                davantage dans le paysage des déploiements infonuagiques natifs
+                en croissance rapide.
             </h2>
         </div>
     </div>
@@ -137,23 +135,23 @@
         <div class="col-sm-12 col-md-6">
             <h3>Sujets</h3>
             <p>
-            L'événement abordera une variété de projets et de solutions reliées, 
-            membres de la CNCF (Cloud Native Computing Foundation). Les 
-            conférences hautement techniques exploreront des cas d'utilisation, 
-            des marches à suivre et des démonstrations qui aideront les 
-            développeurs à utiliser les plateformes infonuagiques pour créer 
-            d'excellentes applications.  
+                L'événement abordera une variété de projets et de solutions reliées,
+                membres de la CNCF (Cloud Native Computing Foundation). Les
+                conférences hautement techniques exploreront des cas d'utilisation,
+                des marches à suivre et des démonstrations qui aideront les
+                développeurs à utiliser les plateformes infonuagiques pour créer
+                d'excellentes applications.
             </p>
         </div>
         <div class="col-sm-12 col-md-6">
             <h3>À qui cet évènement s'adresse-t'il?</h3>
             <p>
-                Cet événement servira tant aux débutants qui démarrent leur 
-                cheminement infonuagique natif qu'aux adopteurs précoces qui 
-                souhaitent plonger plus profondément dans les projets avec 
-                lesquels ils interagissent depuis plusieurs années. L’événement 
-                d'un jour complètera les meetups Kubernetes et Cloud Native qui 
-                prennent de l'ampleur et qui évoluent dans l'est du Canada 
+                Cet événement servira tant aux débutants qui démarrent leur
+                cheminement infonuagique natif qu'aux adopteurs précoces qui
+                souhaitent plonger plus profondément dans les projets avec
+                lesquels ils interagissent depuis plusieurs années. L’événement
+                d'un jour complètera les meetups Kubernetes et Cloud Native qui
+                prennent de l'ampleur et qui évoluent dans l'est du Canada
                 depuis les 3 dernières années.
             </p>
         </div>
@@ -175,15 +173,16 @@
 <div class="container content-card location-card" id="lieu">
     <div class="row">
         <div class="col-sm-12 col-md-6 map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.2020658641973!2d-73.56643588363994!3d45.50601081559393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a4f85929cd9%3A0xadd0cddb1d563489!2sGesu!5e0!3m2!1sen!2sca!4v1550843333680"
-                width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <a href="https://www.google.com/maps/place/Gesu/@45.50568,-73.565996,16z/data=!4m5!3m4!1s0x0:0xadd0cddb1d563489!8m2!3d45.50568!4d-73.565996?hl=en-US">
+                    <img class="map-image" height="100%" width="100%" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/images/map.jpg"> 
+                </a>
         </div>
         <div class="col-sm-12 col-md-6">
             <h1>Lieu</h1>
             <p>
-                La journée Cloud Native aura lieu en plein cœur du centre-ville 
-                de Montréal, à l'Église du Gesu, dans le célèbre Quartier des 
-                Spectacles. 
+                La journée Cloud Native aura lieu en plein cœur du centre-ville
+                de Montréal, à l'Église du Gesu, dans le célèbre Quartier des
+                Spectacles.
             </p>
             <div class="row">
                 <div class="col-sm-6">
@@ -212,18 +211,18 @@
     <div class="row">
         <div class="col-sm-12">
             <p>
-                Les conférences seront sélectionnées par un comité 
+                Les conférences seront sélectionnées par un comité
                 d'évangélistes cloud native ayant participé activement dans leur
-                 communauté locale et qui ont des années d'expérience dans le 
-                 domaine. Quatre des huit conférences choisies seront présentées 
-                 par des experts locaux. Cet événement ponctuel sera bilingue et 
-                 nous ferons de notre mieux pour choisir un nombre égal de 
-                 conférences en français et en anglais.
+                communauté locale et qui ont des années d'expérience dans le
+                domaine. Quatre des huit conférences choisies seront présentées
+                par des experts locaux. Cet événement ponctuel sera bilingue et
+                nous ferons de notre mieux pour choisir un nombre égal de
+                conférences en français et en anglais.
             </p>
         </div>
         <div class="row">
             <div class="col-sm-12 learn-more">
-                <a href="/program">En savoir plus</a>
+                <a href="/program">Voir la liste de nos conférenciers</a>
             </div>
         </div>
     </div>
@@ -242,29 +241,93 @@
     <div class="row">
         <div class="col-sm-12">
             <p>
-                Les organisateurs de la journée Cloud Native 2019 voudraient 
-                remercier ses commanditaires sans lesquels cet événement ne 
-                serait pas possible. 
+                Les organisateurs de la journée Cloud Native 2019 voudraient
+                remercier ses commanditaires sans lesquels cet événement ne
+                serait pas possible.
             </p>
         </div>
 
         <div class="row sponsors-button-row">
             <div class="col-sm-12">
-                <button><a href="https://www.instana.com/"><img class="instana-image" src="/images/Sponsors/instana.png"></a></button>
-                <button><a href="https://github.com/"><img class="github-image" src="/images/Sponsors/github.png"></a></button>
-                <button><a href="https://www.aquasec.com/"><img class="aqua-image" src="/images/Sponsors/aqua.png"></a></button>ß
-                
+                <button><a href="https://www.instana.com/"><img class="instana-image"
+                    src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/images/Sponsors/instana.jpg"></a></button>
+                <button><a href="https://github.com/"><img class="github-image"
+                    src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/images/Sponsors/github.png"></a></button>
+                <button><a href="https://www.aquasec.com/"><img class="aqua-image"
+                    src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/images/Sponsors/aqua.png"></a></button>
+                <button><a href="https://www.elastic.co/"><img class="elastic-image"
+                    src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/images/Sponsors/elastic.png"></a></button>
+                <button><a href="https://container-solutions.com/"><img class="containersolutions-image"
+                    src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/images/Sponsors/containersolutions.png"></a></button>
+                <button><a href="https://www.redhat.com/en"><img class="redhat-image"
+                    src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/images/Sponsors/redhat.png"></a></button>
+                <button><a href="https://www.hashicorp.com/"><img class="hashicorp-image"
+                    src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/images/Sponsors/hashicorp.png"></a></button>
+                <button><a href="https://www.cloudops.com/"><img class="cloudops-image"
+                    src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/images/Logo/cloudops.png"></a></button>
+                <button><a href="https://www.cloud.ca/"><img class="cca-image"
+                    src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/images/Sponsors/cca.png"></a></button>
+                <button><a href="https://www.onespan.com/"><img class="onespan-image" 
+                    src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/images/Sponsors/onespan.png"></a></button>
             </div>
         </div>
     </div>
 </div>
 
 
+<!-- INFORMATION CARD -->
+
+
+<div class="container information-card content-card" id="information">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>Tiens-toi au courant!</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <p>
+                Inscris-toi pour être le premier à tout connaitre à propos des
+                évènements et webinaires liés à la journée cloud native.
+            </p>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 sign-up-form">
+                <!--[if lte IE 8]>
+                    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+                <![endif]-->
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+                <script>
+                    hbspt.forms.create({
+                        portalId: "732832",
+                        formId: "6101300a-9bac-4169-b174-442ae05f3099"
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+    function init() {
+        var imgDefer = document.getElementsByTagName('img');
+        for (var i = 0; i < imgDefer.length; i++) {
+            if (imgDefer[i].getAttribute('data-src')) {
+                imgDefer[i].setAttribute('src', imgDefer[i].getAttribute('data-src'));
+            }
+        }
+    }
+    window.onload = init;
+</script>
+
         </div><div class="container footer">
     <div class="row">
         <div class="col-sm-12">
             <h4>La journée Cloud Native de 2019 sera organisée par</h4>
-            <a href="#"><img class="cloudops-logo" src="/images/Logo/cloudops.png"></a>
+            <a href="https://www.cloudops.com/"><img class="cloudops-logo" src="/images/Logo/cloudops.png"></a>
         </div>
     </div>
     <div class="row">

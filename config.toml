@@ -57,7 +57,7 @@ defaultContentLanguageInSubDir = true
 
         [[languages.en.menu.secondary]]
             identifier = "call-for-proposals"
-            name = "Call for Proposals"
+            name = "Speakers"
             url = "/en/program"
             weight = 20
 
@@ -117,7 +117,7 @@ defaultContentLanguageInSubDir = true
 
         [[languages.fr.menu.secondary]]
             identifier = "call-for-proposals"
-            name = "Appels à propositions"
+            name = "Conférenciers"
             url = "/fr/programmation"
             weight = 20
 

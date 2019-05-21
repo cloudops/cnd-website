@@ -13,17 +13,15 @@
     
 
     
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="preload stylesheet" as="style" type="text/css" href="/css/style.css">
     
-    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon no-follow" href="/images/favicon.ico" type="image/x-icon">
     
-    <link rel="stylesheet" href="https://use.typekit.net/qkk4xfh.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-        crossorigin="anonymous">
-
+    <link rel="stylesheet preload no-follow" as="font" href="https://use.typekit.net/qkk4xfh.css">
+    <link rel="stylesheet preload no-follow" as="font" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+    <link rel="stylesheet preload no-follow" as="style" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet preload no-follow" as="font" href="https://use.fontawesome.com/releases/v5.8.2/css/brands.css" integrity="sha384-i2PyM6FMpVnxjRPi0KW/xIS7hkeSznkllv+Hx/MtYDaHA5VcF0yL3KVlvzp8bWjQ" crossorigin="anonymous">
+    <link rel="stylesheet preload no-follow" as="font" href="https://use.fontawesome.com/releases/v5.8.2/css/fontawesome.css" integrity="sha384-sri+NftO+0hcisDKgr287Y/1LVnInHJ1l+XC7+FOabmTTIK0HnE2ID+xxvJ21c5J" crossorigin="anonymous">
     
         <title>Cloud Native Day - Program</title>
     
@@ -107,7 +105,7 @@
         </div>
     
         <div class="navbar-collapse navbar-nav mr-auto">
-            <a href="/en/program">Call for Proposals</a>
+            <a href="/en/program">Speakers</a>
         </div>
     
         <div class="navbar-collapse navbar-nav mr-auto">
@@ -115,29 +113,311 @@
         </div>
     
 </nav><div class="container main-content"><div class="container secondary-page">
-    <p>
-        Talks will be selected by a committee of cloud native evangelists who 
-        have been active participants in local communities and have years of 
-        industry experience. Four of the eight talks selected will be presented 
-        by local experts. The single-track event will be bilingual and we will 
-        do our best to select equal amounts of English and French content.
-    </p>
-    <p>
-        For more information, please contact 
-        <a href="mailto:info@cloudnativeday.ca">info@cloudnativeday.ca</a>. 
-        Submissions are now closed. Thank you for your contributions.
-    </p>
+    <div class="container secondary-page">
 
-    <p>
-        <b>Detailed schedule coming soon</b>
-    </p>
-</div>
+        <h1 class="main-title">Program</h1>
+    
+        <div class="row speaker">
+            <!-- <div class="col-lg-3 col-sm-12 picture-container">
+                <img class="speaker-picture" src="/images/Speakers/Boo.jpg">
+            </div> --> 
+            <div class="col-lg-8 col-sm-12 speaker-description">
+                <h2 class="speaker-name">Ihor Dvoretskyi,</h2>
+                <h4 class="speaker-title">Developer Advocate</h4>
+                <h3 class="speaker-company">Cloud Native Computing Foundation</h3>
+
+                    <h2 class="speaker-name">VM (Vicky) Brasseur,</h2>
+                    <h4 class="speaker-title">Director of Open Source Strategy</h4>
+                    <h3 class="speaker-company">Juniper Networks</h3>
+                    <a class="speaker-social" href="https://twitter.com/vmbrasseur"><i class="fab fa-twitter-square"></i></a>
+    
+              <!--  <h5 class="conference-name">Opening Keynote</h5>--> 
+            </div>
+        </div>
+    
+    
+        <div class="row speaker">
+            <!-- <div class="col-lg-3 col-sm-12 picture-container">
+                <img class="speaker-picture" src="/images/Speakers/Boo.jpg">
+            </div> --> 
+            <div class="col-lg-8 col-sm-12 speaker-description">
+                <h2 class="speaker-name">Morgan Martinet,</h2>
+                <h4 class="speaker-title">Enterprise Architect</h4>
+                <h3 class="speaker-company">Ville de Montréal</h3>
+                <div class="social-line">
+                    <a class="speaker-social" href="https://twitter.com/morgan_martinet"><i
+                            class="fab fa-twitter-square"></i></a>
+                    <a class="speaker-social" href="https://github.com/livetocode"><i class="fab fa-git-square"></i></a>
+                </div>
+                <h2 class="speaker-name">Marc Khouzam,</h2>
+                <h4 class="speaker-title">Solutions Architect</h4>
+                <h3 class="speaker-company">Cloud infrastructure at Ville de Montréal</h3>
+                <div class="social-line">
+                    <a class="speaker-social" href="https://twitter.com/marckhouzam"><i
+                            class="fab fa-twitter-square"></i></a>
+                    <a class="speaker-social" href="https://github.com/marckhouzam"><i class="fab fa-git-square"></i></a>
+                </div>
+           <h5 class="conference-name">Software development life cycle of montreal.ca</h5>
+                <div class="conference-description">
+                    <p>
+                        We will do a presentation summarizing the architecture put in place for the City of Montreal in
+                        order to develop it’s microservices in NodeJS and executing them in Kubernetes. 
+                    </p>
+                    <p>
+                        We will describe how we used Jenkins and developed our own DSL to simplify adoption and operations.
+                    </p>
+                    <p>
+                        We will also demonstrate all the steps taken: from the creation of a new API project to deploying in
+                        production, including monitoring and logging.
+                    </p>
+                    <p>
+                        We will conclude with an overview of the challenges we faced and the processes implemented in order
+                        to improve.
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row speaker">
+            <!-- <div class="col-lg-3 col-sm-12 picture-container">
+                <img class="speaker-picture" src="/images/Speakers/Boo.jpg">
+            </div> --> 
+            <div class="col-lg-8 col-sm-12 speaker-description">
+                <h2 class="speaker-name">Raymond Maika,</h2>
+                <h4 class="speaker-title">Engineering Team Lead</h4>
+                <h3 class="speaker-company">CENGN</h3>
+    
+                <h2 class="speaker-name">Moh Ahmed,</h2>
+                <h4 class="speaker-title">Cloud Infrastructure Engineer</h4>
+                <h3 class="speaker-company">CENGN</h3>
+    
+    
+          <h5 class="conference-name">Using Rook to Manage Kubernetes Storage with Ceph</h5>
+                <p class="conference-description">
+                    This presentation will introduce the Rook project within CNCF and set the context around the problem
+                    that it addresses. Through the use of the operator pattern, the Rook operator will be discussed to
+                    understand how a storage cluster can be configured and managed through it. Rook started with Ceph as its
+                    only storage backend but over the course of its development, many new backends have been introduced. For
+                    the purpose of this presentation, the focus will be on the Ceph backend and how Rook makes it easy to
+                    upgrade the operator and the backend independently of each other to give administrators control over
+                    their environment. The use cases for Rook-Ceph will vary depending on the Kubernetes cluster and its
+                    purpose. However, as end users of Rook-Ceph, the shared filesystem that Ceph provides allows for the
+                    scalability of different services by running multiple pods with the same mounting point. If there's no
+                    need for Read Write Many capabilities, Rook-Ceph also provides block and/or object storage interfaces to
+                    pods. By the time of the presentation, Rook 1.0 would have been released and with it comes the Ceph CSI
+                    driver implementation which will also be highlighted. Finally, a running Rook-Ceph cluster will be shown
+                    and the Ceph cluster will be upgraded to a new release to pick up fixes and new features demonstrating
+                    independence between the operator and its storage backends.
+                </p>
+            </div>
+        </div>
+    
+    
+    
+        <div class="row speaker">
+            <!-- <div class="col-lg-3 col-sm-12 picture-container">
+                <img class="speaker-picture" src="/images/Speakers/Boo.jpg">
+            </div> --> 
+            <div class="col-lg-8 col-sm-12 speaker-description">
+                <h2 class="speaker-name">Erin Schnabel,</h2>
+                <h4 class="speaker-title">Senior Technical Staff Member</h4>
+                <h3 class="speaker-company">IBM</h3>
+                <div class="social-line">
+                    <a class="speaker-social" href="https://twitter.com/ebullientworks"><i
+                            class="fab fa-twitter-square"></i></a>
+                    <a class="speaker-social" href="https://github.com/ebullient"><i class="fab fa-git-square"></i></a>
+                </div>
+    
+                <h2 class="speaker-name">Ozzy Osborne,</h2>
+                <h4 class="speaker-title">Software Developer</h4>
+                <h3 class="speaker-company">IBM</h3>
+    
+           <h5 class="conference-name">What is cloud native anyway</h5>
+                <p class="conference-description">
+                    Cloud Native and microservices architectures are growing in popularity every day, but once you start
+                    writing production systems, how do you make sure they are fully tested? This session will give an
+                    overview of the trials and tribulations when testing cloud native applications, drawing on our
+                    experiences from writing the text-based microservice adventure Game On! and developing the polyglot
+                    microservice system that generates code for IBM Cloud users. Starting from the ground up, it will cover
+                    how to structure your application, the different types of tests you should write and how to test a
+                    system of microservices when working across different teams. Finally, it will introduce code examples of
+                    how to utilise tools such as JMockit to create mock objects that can be used during testing.
+                </p>
+            </div>
+        </div>
+    
+        <div class="row speaker">
+            <!-- <div class="col-lg-3 col-sm-12 picture-container">
+                <img class="speaker-picture" src="/images/Speakers/Boo.jpg">
+            </div> --> 
+            <div class="col-lg-8 col-sm-12 speaker-description">
+                <h2 class="speaker-name">Don Bowman,</h2>
+                <h4 class="speaker-title">Founder</h4>
+                <h3 class="speaker-company">Agilicus</h3>
+                <a class="speaker-social" href="https://twitter.com/Agilicus"><i class="fab fa-twitter-square"></i></a>
+                <a class="speaker-social" href="https://github.com/agilicus"><i class="fab fa-git-square"></i></a>
+    
+       <h5 class="conference-name">Defense in Depth: Securing your new Kubernete cluster from the challenges that
+                    lurk within</h5>
+                <div class="conference-description">
+                    <p>
+                        The abstraction layers of 'container' and 'helm' etc often make people not think about the security
+                        issues. I run 'helm install X' or 'docker build'. That in turn imports many things which get
+                        delivered
+                        into my environment.
+                    </p>
+                    <p>
+                        Containers are not a (strong) security barrier. We often think about security as a Boolean (outside
+                        bad,
+                        inside good). Here I will talk about 'Defense in Depth': assuming that bad things are already in,
+                        and
+                        the steps we take to harden the environment.
+                    </p>
+                    <ul>
+                        <li>service mesh</li>
+                        <li>logging</li>
+                        <li>network policy</li>
+                        <li>reduction in privilege (de-root, de-privilege)</li>
+                        <li>rbac, roles</li>
+                        <li>understanding the upstream risk, quantifying, controlling</li>
+                        <li>read-only filesystems</li>
+                        <li>distroless</li>
+                    </ul>
+                    <p>
+                        And I'll show a simple check list of activities you can do during your DevOps cycle that won't
+                        change
+                        your cost (much).
+                    </p>
+    
+                    <p>
+                        I will focus on Kubernetes environment, contrasting Helm (+Tiller) versus Kustomize, but this is
+                        applicable to other environments.
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="row speaker">
+            <!-- <div class="col-lg-3 col-sm-12 picture-container">
+                <img class="speaker-picture" src="/images/Speakers/Boo.jpg">
+            </div> --> 
+            <div class="col-lg-8 col-sm-12 speaker-description">
+                <h2 class="speaker-name">Chris Short,</h2>
+                <h4 class="speaker-title">Cloud Native Computing Foundation Ambassador, Principal Product Marketing Manager
+                </h4>
+                <h3 class="speaker-company">Red Hat</h3>
+                <a class="speaker-social" href="https://twitter.com/ChrisShort"><i class="fab fa-twitter-square"></i></a>
+                <a class="speaker-social" href="https://github.com/chris-short"><i class="fab fa-git-square"></i></a>
+    
+         <h5 class="conference-name">DevOps is Not War</h5>
+                <p class="conference-description">
+                    Over the past 500 years, there have been 16 cases of a rising power threatening to displace a ruling
+                    power. 75% of those cases resulted in war. Although your organizational transformation probably won’t
+                    lead to war, it could be contentious. History can help prevent conflict when driving change. This talk
+                    will analyze human tendencies, historical data, and provide real-world examples of how to avoid conflict
+                    during your DevOps journey.
+                </p>
+            </div>
+        </div>
+    
+    
+        <div class="row speaker">
+            <!-- <div class="col-lg-3 col-sm-12 picture-container">
+                <img class="speaker-picture" src="/images/Speakers/Boo.jpg">
+            </div> --> 
+            <div class="col-lg-8 col-sm-12 speaker-description">
+                <h2 class="speaker-name">Viktor Gamov,</h2>
+                <h4 class="speaker-title">Developer Advocate</h4>
+                <h3 class="speaker-company">Confluent</h3>
+                <a class="speaker-social" href="https://twitter.com/gamussa"><i class="fab fa-twitter-square"></i></a>
+                <a class="speaker-social" href="https://github.com/gamussa"><i class="fab fa-git-square"></i></a>
+    
+         <h5 class="conference-name">Streams must flow: developing fault-tolerant stream processing application with Kafka Streams and Kubernetes.</h5>
+                <p class="conference-description">
+                    All things change constantly, and we need to get on board with streams! Moreover, dealing with constantly changing data at low latency is pretty hard. It doesn’t need to be that way. Kafka Streams, Apache Kafka’s stream processing library, allows developers to build sophisticated stateful stream processing applications which you can deploy in an environment of your choice. Kafka Streams is not only scalable but fully elastic allowing for dynamic scale-in and scale-out as the library handles state migration transparently in the background. By running Kafka Streams applications on Kubernetes, you can use Kubernetes powerful control plane to standardize and simplify the application management—from deployment to dynamic scaling. In this talk, Viktor explains the essentials of dynamic scaling and state migration in Kafka Streams. You will see a live demo of how a Kafka Streams application can run in a Docker container and the dynamic scaling of an application running in Kubernetes.
+                </p>
+            </div>
+        </div>
+    
+    
+        <div class="row speaker">
+            <!-- <div class="col-lg-3 col-sm-12 picture-container">
+                <img class="speaker-picture" src="/images/Speakers/Boo.jpg">
+            </div> --> 
+            <div class="col-lg-8 col-sm-12 speaker-description">
+                <h2 class="speaker-name">Alexandre Menezes,</h2>
+                <h4 class="speaker-title">Container Solution Architect</h4>
+                <h3 class="speaker-company">CloudOps</h3>
+                <h2 class="speaker-name">Filipe Bento dos Santos,</h2>
+                <h4 class="speaker-title">Container Solution Architect</h4>
+                <h3 class="speaker-company">CloudOps</h3>
+
+           <h5 class="conference-name"></h5>
+                <div class="conference-description">
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="row speaker">
+            <!-- <div class="col-lg-3 col-sm-12 picture-container">
+                <img class="speaker-picture" src="/images/Speakers/Boo.jpg">
+            </div> --> 
+            <div class="col-lg-8 col-sm-12 speaker-description">
+                <h2 class="speaker-name">Karthik Prabhakar,</h2>
+                <h4 class="speaker-title">Senior Director</h4>
+                <h3 class="speaker-company">Solution Architecture at Tigera</h3>
+                <a class="speaker-social" href="https://twitter.com/worldhopper"><i class="fab fa-twitter-square"></i></a>
+                <a class="speaker-social" href="https://github.com/kprabhak"><i class="fab fa-git-square"></i></a>
+    
+    
+          <h5 class="conference-name">Identity, AuthN and AuthZ for Zero Trust Workload Security</h5>
+                <div class="conference-description">
+                    <p>
+                        Workload identity, authentication and authorization are foundational to a comprehensive security posture for cloud-native microservices. This session will walk through the state of the union in how these can be enabled within Kubernetes and a service mesh.
+                    </p>
+                    <p>
+                        Furthermore, deployments have evolved from isolated Kubernetes islands towards interconnected services that also encompass public cloud services. We will share a few emerging patterns learned from operationalizing this spanning Kubernetes, Istio Citadel, Envoy and Calico.   
+                    </p>
+                    <p>
+                        Of course, together with a couple of demos to illustrate how these can be linked together to enable zero-trust security. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="row speaker">
+            <!-- <div class="col-lg-3 col-sm-12 picture-container">
+                <img class="speaker-picture" src="/images/Speakers/Boo.jpg">
+            </div> --> 
+            <div class="col-lg-8 col-sm-12 speaker-description">
+                <h2 class="speaker-name">Ian Crosby</h2>
+                <h3 class="speaker-company">Container Solutions</h3>
+
+       <h5 class="conference-name">Kubernetes Crossing the chasm</h5>
+                <p class="conference-description">
+                    As Kubernetes enters the mainstream market, we are seeing more use cases that don't fit the original mold, each bringing a new set of challenges. This talk discusses specific case studies, the challenges encountered adopting Kubernetes in each case, and the solutions and tooling used to solve them.
+                </p>
+            </div>
+        </div>
+    
+    </div>
 
         </div><div class="container footer">
     <div class="row">
         <div class="col-sm-12">
             <h4>Cloud Native Day 2019 will be organized by</h4>
-            <a href="#"><img class="cloudops-logo" src="/images/Logo/cloudops.png"></a>
+            <a href="https://www.cloudops.com/"><img class="cloudops-logo" src="/images/Logo/cloudops.png"></a>
         </div>
     </div>
     <div class="row">

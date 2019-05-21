@@ -12,17 +12,15 @@
     <!-- End Google Tag Manager -->
 
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="{{ "css/style.css" | absURL }}">
+    <link rel="preload stylesheet" as="style" type="text/css" href="{{ "css/style.css" | absURL }}">
     <!-- FAVICON -->
-    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon no-follow" href="/images/favicon.ico" type="image/x-icon">
     <!-- FONTS -->
-    <link rel="stylesheet" href="https://use.typekit.net/qkk4xfh.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-        crossorigin="anonymous">
-
+    <link rel="stylesheet preload no-follow" as="font" href="https://use.typekit.net/qkk4xfh.css">
+    <link rel="stylesheet preload no-follow" as="font" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+    <link rel="stylesheet preload no-follow" as="style" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet preload no-follow" as="font" href="https://use.fontawesome.com/releases/v5.8.2/css/brands.css" integrity="sha384-i2PyM6FMpVnxjRPi0KW/xIS7hkeSznkllv+Hx/MtYDaHA5VcF0yL3KVlvzp8bWjQ" crossorigin="anonymous">
+    <link rel="stylesheet preload no-follow" as="font" href="https://use.fontawesome.com/releases/v5.8.2/css/fontawesome.css" integrity="sha384-sri+NftO+0hcisDKgr287Y/1LVnInHJ1l+XC7+FOabmTTIK0HnE2ID+xxvJ21c5J" crossorigin="anonymous">
     {{ if .IsHome }}
         <title>Cloud Native Day</title>
     {{ else }}
