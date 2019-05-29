@@ -570,6 +570,17 @@ body .main-content {
     width: 150px !important;
     height: auto;
 }
+
+.sponsors-card .cloudbees-image {
+    width: 130px;
+    height: auto;
+}
+
+.sponsors-card .mayadata-image {
+    width: 130px;
+    height: auto;
+}
+
 /* SPONSORS CARD MOBILE*/
 
 

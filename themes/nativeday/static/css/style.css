@@ -576,6 +576,11 @@ body .main-content {
     height: auto;
 }
 
+.sponsors-card .mayadata-image {
+    width: 130px;
+    height: auto;
+}
+
 /* SPONSORS CARD MOBILE*/
 
 
