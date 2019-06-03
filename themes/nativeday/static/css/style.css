@@ -581,6 +581,11 @@ body .main-content {
     height: auto;
 }
 
+.sponsors-card .citrix-image {
+    width: 130px;
+    height: auto;
+}
+
 /* SPONSORS CARD MOBILE*/
 
 
