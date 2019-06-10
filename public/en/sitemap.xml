@@ -46,6 +46,10 @@
   </url>
   
   <url>
+    <loc>/en/schedule/</loc>
+  </url>
+  
+  <url>
     <loc>/en/sponsors/</loc>
     <xhtml:link
                 rel="alternate"

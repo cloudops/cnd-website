@@ -51,8 +51,8 @@ defaultContentLanguageInSubDir = true
 
         [[languages.en.menu.secondary]]
             identifier = "early-bird"
-            name = "Early Bird Tickets"
-            url = "https://www.eventbrite.ca/e/journee-cloud-native-montreal-cloud-native-day-montreal-tickets-57543465053"
+            name = "Schedule"
+            url = "/en/schedule"
             weight = 10
 
         [[languages.en.menu.secondary]]
@@ -111,8 +111,8 @@ defaultContentLanguageInSubDir = true
 
         [[languages.fr.menu.secondary]]
             identifier = "early-bird"
-            name = "Billets Pré-inscription"
-            url = "https://www.eventbrite.ca/e/journee-cloud-native-montreal-cloud-native-day-montreal-tickets-57543465053"
+            name = "Horaire"
+            url = "/fr/horaire"
             weight = 10
 
         [[languages.fr.menu.secondary]]

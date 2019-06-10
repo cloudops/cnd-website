@@ -46,6 +46,10 @@
   </url>
   
   <url>
+    <loc>/fr/horaire/</loc>
+  </url>
+  
+  <url>
     <loc>/fr/commanditaires/</loc>
     <xhtml:link
                 rel="alternate"
