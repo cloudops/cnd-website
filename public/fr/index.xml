@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homepage on Cloud Native Day</title>
@@ -9,6 +9,28 @@
     
 	<atom:link href="/fr/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Media Content</title>
+      <link>/fr/media-content/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/media-content/</guid>
+      <description>Talks Luc Perkins, Developer Advocate CNCF VM (Vicky) Brasseur, Director of Open Source Strategy Juniper Networks  A well-grounded cloud: Exploring the foundations of Cloud Native Cloud native is now the default architecture for new and evolving software. While the approach has earned its way to the top of the heap, merit isn&#39;t the only factor that lead to its success. In this talk I&#39;ll explore the foundation that&#39;s given cloud native the solid base from which to reach for the skies.</description>
+    </item>
+    
+    <item>
+      <title>Média</title>
+      <link>/fr/media/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/media/</guid>
+      <description>Conférence 2019   A well-grounded cloud: Exploring the foundations of Cloud Native VM (Vicky) Brasseur Director of Open Source Strategy, JUNIPER NETWORKS
+   Software development life cycle of montreal.ca Morgan Martinet Enterprise Architect, VILLE DE MONTREAL
+Marc Khouzam Solutions Architect, Cloud infrastructure at VILLE DE MONTREAL
+    Kubernetes: Crossing the Chasm Ian Crosby Managing Director, Container Solution
+   Defense in Depth: Securing your new Kubernete cluster from the challenges that lurk within Don Bowman Founder, AGILICUS</description>
+    </item>
     
     <item>
       <title>Program</title>

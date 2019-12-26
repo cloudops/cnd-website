@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homepage on Cloud Native Day</title>
@@ -9,6 +9,19 @@
     
 	<atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Media</title>
+      <link>/en/media/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/media/</guid>
+      <description>2019 Talks   A well-grounded cloud: Exploring the foundations of Cloud Native VM (Vicky) Brasseur Director of Open Source Strategy, JUNIPER NETWORKS
+   Software development life cycle of montreal.ca Morgan Martinet Enterprise Architect, VILLE DE MONTREAL
+Marc Khouzam Solutions Architect, Cloud infrastructure at VILLE DE MONTREAL
+    Kubernetes: Crossing the Chasm Ian Crosby Managing Director, Container Solution
+   Defense in Depth: Securing your new Kubernete cluster from the challenges that lurk within Don Bowman Founder, AGILICUS</description>
+    </item>
     
     <item>
       <title>Program</title>
@@ -39,7 +52,7 @@ Vicky Brasseur Keynote - A well-grounded cloud: Exploring the foundations of Clo
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/en/sponsors/</guid>
-      <description>The organizers of Cloud Native Day 2019 would like to thank our sponsors, without whom this event would not be possible.  Sponsoring Cloud Native Day gives your organization an opportunity to speak with developers, technical leaders, and decision makers from companies of all sizes and industries. Whether your goals include recruiting new talent, opening new markets, or connecting with your existing customers, this event will be the place to have those conversations with experts and leaders in tech innovation.</description>
+      <description>The organizers of Cloud Native Day would like to thank our 2019 sponsors, without whom this event would not be possible.  Sponsoring Cloud Native Day gives your organization an opportunity to speak with developers, technical leaders, and decision makers from companies of all sizes and industries. Whether your goals include recruiting new talent, opening new markets, or connecting with your existing customers, this event will be the place to have those conversations with experts and leaders in tech innovation.</description>
     </item>
     
   </channel>

@@ -1,14 +1,14 @@
 - id: register
-  translation: Inscription
+  translation: Infolettre
 - id: register_url
-  translation: https://www.eventbrite.ca/e/journee-cloud-native-montreal-cloud-native-day-montreal-tickets-57543465053
+  translation: http://www.cloudnativeday.ca/fr/#information
 - id: register_today
   translation: Inscrivez-vous dès aujourd'hui
 - id: header_image
-  translation: /images/Logo/Cloud-Native-Day-FR.svg
+  translation: /images/Logo/Cloud-Native-Day-FR.png
 - id: footer_cloudops
-  translation: La journée Cloud Native de 2019 sera organisée par
+  translation: La journée Cloud Native est organisée par
 - id: footer_presentation
   translation: CloudOps est une entreprise de solutions infonuagiques axée sur les solutions de source libre, les plateformes infonuagiques, le réseautage et les DevOps. 
 - id: footer_copyright
-  translation: 2019 Journée Cloud Native
+  translation: 2020 Journée Cloud Native

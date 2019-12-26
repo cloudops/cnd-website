@@ -18,11 +18,6 @@ defaultContentLanguageInSubDir = true
             url = "/en/#about"
             weight = 20
 
-        [[languages.en.menu.main]]
-            identifier = "location"
-            name = "Location"
-            url = "/en/#location"
-            weight = 30
 
         [[languages.en.menu.main]]
             identifier = "sponsors"
@@ -30,16 +25,11 @@ defaultContentLanguageInSubDir = true
             url = "/en/sponsors"
             weight = 40
 
-        [[languages.en.menu.main]]
-            identifier = "program"
-            name = "Program"
-            url = "/en/program"
-            weight = 50
 
         [[languages.en.menu.main]]
             identifier = "registration"
-            name = "Registration"
-            url = "https://www.eventbrite.ca/e/journee-cloud-native-montreal-cloud-native-day-montreal-tickets-57543465053"
+            name = "Media"
+            url = "/en/media"
             weight = 60
         
         [[languages.en.menu.main]]
@@ -51,15 +41,9 @@ defaultContentLanguageInSubDir = true
 
         [[languages.en.menu.secondary]]
             identifier = "early-bird"
-            name = "Schedule"
-            url = "/en/schedule"
+            name = "Media"
+            url = "/en/media"
             weight = 10
-
-        [[languages.en.menu.secondary]]
-            identifier = "call-for-proposals"
-            name = "Speakers"
-            url = "/en/program"
-            weight = 20
 
         [[languages.en.menu.secondary]]
             identifier = "become-a-sponsor"
@@ -79,27 +63,16 @@ defaultContentLanguageInSubDir = true
             weight = 20
 
         [[languages.fr.menu.main]]
-            identifier = "location"
-            name = "Lieu"
-            url = "/fr/#lieu"
-            weight = 30
-
-        [[languages.fr.menu.main]]
             identifier = "sponsors"
             name = "Commanditaires"
             url = "/fr/commanditaires"
             weight = 40
 
-        [[languages.fr.menu.main]]
-            identifier = "program"
-            name = "Programmation"
-            url = "/fr/programmation"
-            weight = 50
 
         [[languages.fr.menu.main]]
             identifier = "registration"
-            name = "Inscription"
-            url = "https://www.eventbrite.ca/e/journee-cloud-native-montreal-cloud-native-day-montreal-tickets-57543465053"
+            name = "Média"
+            url = "/fr/media"
             weight = 60
 
         [[languages.fr.menu.main]]
@@ -111,15 +84,10 @@ defaultContentLanguageInSubDir = true
 
         [[languages.fr.menu.secondary]]
             identifier = "early-bird"
-            name = "Horaire"
-            url = "/fr/horaire"
+            name = "Média"
+            url = "/fr/media"
             weight = 10
 
-        [[languages.fr.menu.secondary]]
-            identifier = "call-for-proposals"
-            name = "Conférenciers"
-            url = "/fr/programmation"
-            weight = 20
 
         [[languages.fr.menu.secondary]]
             identifier = "become-a-sponsor"

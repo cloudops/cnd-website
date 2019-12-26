@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>/fr/categories/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -28,6 +27,24 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/media-content/</loc>
+  </url>
+  
+  <url>
+    <loc>/fr/media/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/media/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/media/"
                 />
   </url>
   
@@ -65,7 +82,6 @@
   
   <url>
     <loc>/fr/tags/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
