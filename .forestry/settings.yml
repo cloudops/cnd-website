@@ -15,7 +15,9 @@ sections:
   path: content
   label: Pages
   create: all
-  match: "*"
+  match: "*.md"
+  templates:
+  - test-template
 - type: directory
   path: content/french
   label: French
