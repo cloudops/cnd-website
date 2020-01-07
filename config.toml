@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Cloud Native Day"
 theme = ["nativeday"]
-
+metaDataFormat = "yaml"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubDir = true
 
@@ -31,7 +31,7 @@ defaultContentLanguageInSubDir = true
             name = "Media"
             url = "/en/media"
             weight = 60
-        
+
         [[languages.en.menu.main]]
             identifier = "contact-us"
             name = "Contact us"
