@@ -1,101 +1,40 @@
 ---
-label: Test template
+label: Blog post
 hide_body: false
+display_field: title
 fields:
 - type: text
   name: title
-  label: title
-- name: subtitle
-  type: textarea
-  default: ''
+  label: Title
   config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: subtitle
-  description: write the subtitle field
-- name: blog_post
+    min: '0'
+    max: '150'
+- name: description
   type: textarea
   default: ''
   config:
     required: false
     wysiwyg: true
     schema:
-      format: html-blocks
-  label: blog post
-  description: writing for the post
+      format: markdown
+  label: Description
+  description: Short description for search engines or excerpt.
 - name: date
   type: datetime
   label: Date
-  description: " date post is published"
+  description: The date you wish to publish the post
   config:
     required: false
     date_format: 
     time_format: 
     display_utc: false
   hidden: false
-- name: last_name
-  type: boolean
-  label: Last Name
-  description: Write your last name here
-- name: color_of_the_background
-  type: color
-  label: Color of the background
-  config:
-    required: false
-    color_format: Hex
-  default: "#50E3C2"
-  description: pick a color!
-- name: tag
-  type: tag_list
-  default: []
-  label: Tag
-  description: add a tag!
-- name: create_a_list
-  type: list
-  config:
-    use_select: false
-    min: 
-    max: 
-  label: Create a list
-  description: You can then sort it
-- name: upload_an_image
-  type: file
-  config:
-    maxSize: 250
-  label: upload an image
-  description: picture here pretty please!
-- name: add_many_images
+  default: now
+- name: images
   type: image_gallery
   config: {}
-  label: Add many images
-  description: create a nice group of pictures
-- name: a_field_group
-  type: field_group
-  config: {}
-  fields:
-  - name: repeatable_field_group
-    type: field_group_list
-    config:
-      min: 
-      max: 
-      labelField: 
-    label: repeatable field group
-    description: 'what is that '
-  label: a field group
-  description: whats a field group. what a weird word too
-- name: block
-  type: blocks
-  label: block
-  template_types: []
-  config:
-    min: 
-    max: 
-  description: adding a block
-- name: include_template
-  type: include
-  config: {}
-  template: test-template
-  label: include template
-  description: is that a template within a template?
+  description: Useful for social media sharing
+  label: Image
+pages:
+- content/english/blog/new-english-blog-post.md
+- content/french/blog/metadataformat-should-be-yaml.md
