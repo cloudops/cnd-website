@@ -71,3 +71,5 @@ fields:
   config: {}
   label: Add many images
   description: create a nice group of pictures
+pages:
+- content/a-new-page.md
