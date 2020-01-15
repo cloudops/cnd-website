@@ -72,4 +72,5 @@ fields:
   label: Add many images
   description: create a nice group of pictures
 pages:
+- blog/a-new-post.md
 - content/a-new-page.md
