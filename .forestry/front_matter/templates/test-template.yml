@@ -71,31 +71,3 @@ fields:
   config: {}
   label: Add many images
   description: create a nice group of pictures
-- name: a_field_group
-  type: field_group
-  config: {}
-  fields:
-  - name: repeatable_field_group
-    type: field_group_list
-    config:
-      min: 
-      max: 
-      labelField: 
-    label: repeatable field group
-    description: 'what is that '
-  label: a field group
-  description: whats a field group. what a weird word too
-- name: block
-  type: blocks
-  label: block
-  template_types: []
-  config:
-    min: 
-    max: 
-  description: adding a block
-- name: include_template
-  type: include
-  config: {}
-  template: test-template
-  label: include template
-  description: is that a template within a template?
